@@ -1,6 +1,6 @@
 To Do
 ------------------
-[  ] - 01 : Run rails server and check it works without issue.
+[ x ] - 01 : Run rails server and check it works without issue.
 [  ] - 02 : Install capybara gem and run simple test on homepage.
 [  ] - 03 : Build html structure (no tests)
 [  ] - 04 : Feature: view all works ongoing and not started.
