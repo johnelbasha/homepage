@@ -4,3 +4,14 @@ To Do
 [  ] - 02 : Install capybara gem and run simple test on homepage.
 [  ] - 03 : Build html structure (no tests)
 [  ] - 04 : Feature: view all works ongoing and not started.
+
+02- Install Capybara and run test:
+- Adding rspec-rails gem
+  - added `gem 'rspec-rails', '~> 6.0.0'` to Gemfile in development and test environments
+  - run `bundle install`
+    -*- Error: Bundler could not find compatible versions for gem "actionpack"
+      -> Looks like there is a conflict between version 6.0.6 and > 6.1 for the actionpack gem.
+      -> Looking on stack overflow for similar threads.
+        -> found this one: https://stackoverflow.com/questions/50098395/rails-5-bundler-could-not-find-compatible-versions-for-gem-actionpack
+        - overcome the issue by removing versioning of rspec-rails.
+  - run `rails generate rspec:install`
