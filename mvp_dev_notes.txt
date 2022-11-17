@@ -15,3 +15,13 @@ To Do
         -> found this one: https://stackoverflow.com/questions/50098395/rails-5-bundler-could-not-find-compatible-versions-for-gem-actionpack
         - overcome the issue by removing versioning of rspec-rails.
   - run `rails generate rspec:install`
+  - running a simple rspec test to prove that RSpec runs okay.
+- Installing and setting up Capybara
+  - added gem 'capybara' to Gemfile.
+  - added basic test for visiting root and finding the word John El Basha
+  - ran `rails g controller PAGES main`
+  -*- Error: Failure/Error: <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    ->        Your manifest contains: {}
+    -> This is a very common error/problem. Looking on StackOverflow
+    -> solution was (I think) a combination of node version and needing run `bundle exec rails webpacker:install`
+  
