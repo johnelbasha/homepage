@@ -25,3 +25,5 @@ To Do
     -> This is a very common error/problem. Looking on StackOverflow
     -> solution was (I think) a combination of node version and needing run `bundle exec rails webpacker:install`
   
+03- Build html structure
+  - 
