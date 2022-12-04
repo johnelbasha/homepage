@@ -109,4 +109,6 @@ Rails.application.configure do
   # config.active_record.database_selector = { delay: 2.seconds }
   # config.active_record.database_resolver = ActiveRecord::Middleware::DatabaseSelector::Resolver
   # config.active_record.database_resolver_context = ActiveRecord::Middleware::DatabaseSelector::Resolver::Session
+  # solution to problem https://stackoverflow.com/questions/51466887/rails-how-to-fix-missing-secret-key-base-for-production-environment
+  config.secret_key_base = 'eb0f63d39957100ec71c87f5572e1000ca3697b4e6c994b17453a784bb45576b43591a3ad94c1bb42d97713825e787ecd53b210687e0a96ca287e70bf2163d8b'
 end
